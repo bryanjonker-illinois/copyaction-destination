@@ -15,4 +15,8 @@ jobs:
           ref: 'main'
           path: './toolkit-management'
       - name: Copy files
-        run: ls ./toolkit-management
+        run: cp ./toolkit-management/global-css/builder/*.json ./directory
+      - name: Remove directory
+        run: rmdir ./toolkit-management
+      - name: Check directory
+        run: ls ./directory
