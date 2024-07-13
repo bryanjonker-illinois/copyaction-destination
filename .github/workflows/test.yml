@@ -13,4 +13,6 @@ jobs:
         with:
           repository: 'web-illinois/toolkit-management'
           ref: 'main'
-          path: './directory'
+          path: './toolkit-management'
+      - name: Copy files
+        run: ls
