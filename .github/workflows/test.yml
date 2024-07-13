@@ -17,6 +17,6 @@ jobs:
       - name: Copy files
         run: cp ./toolkit-management/global-css/builder/*.json ./directory
       - name: Remove directory
-        run: rmdir ./toolkit-management
+        run: rm -r ./toolkit-management
       - name: Check directory
         run: ls ./directory
