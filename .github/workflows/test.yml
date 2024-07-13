@@ -15,4 +15,4 @@ jobs:
           ref: 'main'
           path: './toolkit-management'
       - name: Copy files
-        run: ls
+        run: ls ./toolkit-management
