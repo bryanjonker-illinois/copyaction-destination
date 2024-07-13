@@ -11,6 +11,6 @@ jobs:
       - name: Checkout toolkit management
         uses: actions/checkout@v4
         with:
-          repository: 'https://github.com/web-illinois/toolkit-management'
+          repository: 'web-illinois/toolkit-management'
           ref: 'main'
           path: './directory'
